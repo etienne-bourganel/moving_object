@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 class Board
+  attr_reader :matrix
   def initialize(width, height)
     @matrix = create_matrix(width, height)
-    p @matrix
   end
 
   def create_matrix(width, height)

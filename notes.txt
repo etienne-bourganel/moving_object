@@ -1,0 +1,5 @@
+Assumptions
+
+1. User is asked to enter separately the width and height of the board
+2. User is asked to enter separately intial x and y for moving object
+3. The simulation end as soon as last instruction make object fall off the board
