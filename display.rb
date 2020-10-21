@@ -17,12 +17,6 @@ class Display
     puts "\nWhat is the inital y-position of the object?\n"
   end
 
-  def self.confirmation(width, height, x, y)
-    puts "
-    \nThe board's dimensions are (width: #{width}, height: #{height})
-    \nThe moving object's starting position is (x: #{x}, y: #{y})\n"
-  end
-
   def self.input_command
     puts "\nWhat is your next command?
     0: Quit simulation and display results
@@ -33,14 +27,6 @@ class Display
   end
 
   def self.error_input
-    puts "\n Please choose a valid command."
-  end
-
-  def self.object_position(position)
-    puts "\nThe object's position is #{position}"
-  end
-
-  def self.show_results(position)
-    puts position
+    puts "\nERROR - Please choose a valid command."
   end
 end

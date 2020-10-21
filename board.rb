@@ -2,6 +2,7 @@
 
 class Board
   attr_reader :matrix
+  
   def initialize(width, height)
     @matrix = create_matrix(width, height)
   end
